@@ -74,24 +74,29 @@ body {
 /* Header - Navigation and Logo */
 
 .top {
-	border: 1px black solid;
+	//border: 1px black solid;
 }
 
 h1 {
 	font-size: 80px;
 }
 
-nav a {
-	color: slategray;
-	text-decoration: none;
-} 
-
-div {
+.mainHeading {
 	border: black 2px solid;
-	width: 100%;
 	display: inline-block;
+	width: 100%;
 }
 
+nav a {
+	border: green 2px solid;
+	color: slategray;
+	text-decoration: none;
+	margin: 0;
+	display: inline-block;
+} 
+
 .logo { 
-	
+	border: red solid;
+	width: 10%;
+	display: inline-block;
 }
