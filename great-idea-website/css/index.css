@@ -128,8 +128,8 @@ h1 {
 }
 
 button {
-	background-color: blue;
-	margin: 0, 100%, 0, 10%;
+	margin-left: 20%;
+	padding: 5, 0;
 	
 }
 
