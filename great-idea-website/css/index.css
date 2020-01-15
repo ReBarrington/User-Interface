@@ -64,3 +64,30 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Page-Wide */
+
+body {
+	padding: 15%;
+}
+
+/* Header - Navigation and Logo */
+
+.top {
+	border: 1px black solid;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+nav a {
+	color: slategray;
+	text-decoration: none;
+	margin: 5%;
+} 
+
+div .mainHeading {
+	width: 100%;
+	display: inline-block;
+}
