@@ -82,21 +82,33 @@ h1 {
 }
 
 .mainHeading {
-	border: black 2px solid;
+	border: black 22px solid;
 	display: inline-block;
 	width: 100%;
 }
 
 nav a {
-	border: green 2px solid;
+	//border: green 2px solid;
+	padding: 5% 2%;
 	color: slategray;
 	text-decoration: none;
-	margin: 0;
+	margin:  5 auto;
 	display: inline-block;
 } 
 
 .logo { 
-	border: red solid;
-	width: 10%;
+	//border: red solid;
+	padding: 0 2%;
+	width: 20%;
 	display: inline-block;
+}
+
+
+/* Home Section */
+
+
+.home {
+	border: pink 5px solid;
+	display: inline-block;
+	width: 100%;
 }
