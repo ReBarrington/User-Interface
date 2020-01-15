@@ -84,10 +84,14 @@ h1 {
 nav a {
 	color: slategray;
 	text-decoration: none;
-	margin: 5%;
 } 
 
-div .mainHeading {
+div {
+	border: black 2px solid;
 	width: 100%;
 	display: inline-block;
+}
+
+.logo { 
+	
 }
