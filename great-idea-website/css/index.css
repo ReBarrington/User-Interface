@@ -64,3 +64,119 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Page-Wide */
+
+body {
+	padding: 15%;
+}
+
+/* Header - Navigation and Logo */
+
+.top {
+	//border: 1px black solid;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+.mainHeading {
+	border: black 22px solid;
+	display: inline-block;
+	width: 100%;
+}
+
+nav a {
+	//border: green 2px solid;
+	padding: 5% 2%;
+	color: slategray;
+	text-decoration: none;
+	margin:  5 auto;
+	display: inline-block;
+} 
+
+.logo { 
+	//border: red solid;
+	padding: 0 2%;
+	width: 20%;
+	display: inline-block;
+}
+
+
+/* Home Section */
+
+
+.home {
+	//border: pink 5px solid;
+	display: inline-block;
+	width: 100%;
+}
+
+
+h1 {
+	//border: purple 5px dotted;
+	text-align: center;
+	margin-bottom: 10;
+	width: 50%;
+	display: inline-block;
+}
+
+.circle {
+	width: 40%;
+	display: inline-block;
+}
+
+button {
+	margin-left: 19%;
+	padding: 5, 0;
+	border: black 1px solid;
+	font-size: 15px;
+	
+}
+
+/* Middle section */
+.middle {
+	display: inline-block;
+	width: 100%;
+}
+
+.middle .top{
+	width: 100%;
+	display: inline-block;
+}
+
+.features , .about{
+	width: 45%;
+	display: inline-block;
+	padding: 5%;
+}
+
+.services, .product, .vision {
+	width: 32%;
+	display: inline-block;
+	padding: 5%;
+}
+
+.banner {
+	width: 100%;
+}
+
+
+/* Lines */
+hr {
+	width: 100%;
+	height: 1px;
+	margin-top: 20px;
+}
+
+/* Footer */
+footer {
+	text-align: left;
+}
+
+h6 {
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
